@@ -6,12 +6,8 @@ import hydra
 from omegaconf import DictConfig
 from lightning import Callback, LightningDataModule, LightningModule, Trainer
 
-# TO DELETE ---------------------------------------
-#import sys
-#sys.path.append("C:\\Users\\victo\\Documents\\FME\\Q3 - TFM\\Learning\\Hydra\\FoodVisionMini")
 import rootutils
 rootutils.setup_root(__file__, indicator=".project-root", pythonpath=True)
-#-----------------------------------------------------
 
 from src import utils
 
