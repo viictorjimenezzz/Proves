@@ -1,0 +1,7 @@
+data:
+  _target_: src.data.food3_datamodule.FoodVisionMini_DataModule
+  data_dir: data/
+  batch_size: 32
+model:
+  _target_: src.model.transfer_resnet50.Resnet50TransferLearning
+  out_features: 3

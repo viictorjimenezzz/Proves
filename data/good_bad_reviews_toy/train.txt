@@ -1,0 +1,13 @@
+I love this product.	1
+This movie was terrible.	0
+The book was decent.	1
+I don't recommend this game.	0
+I loved the game.	1
+The book was good.	1
+I would never recommend it.	0
+Hate it.	0
+I didn't like it at all.	0
+What a masterpiece.	1
+The book was fine.	1
+The film left me untouched.	0
+Average movie, would not recommend it.	0

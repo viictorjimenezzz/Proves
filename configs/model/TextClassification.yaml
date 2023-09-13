@@ -1,0 +1,13 @@
+_target_: src.models.TextClassification.TextClassifier
+
+# I should include the nlp_model configuration, but it has been selected in train.yaml
+# to be switchable among different ones. The default is thus selected there,
+# and others can be tried from the CLI.
+
+out_classes: ${data.out_classes} # out classes for the model depend on data being used
+
+optimizer:
+  _target_: torch.optim.Adam
+  _partial_: true
+  lr: 0.001
+  weight_decay: 0.0

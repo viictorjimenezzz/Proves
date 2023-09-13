@@ -1,0 +1,6 @@
+_target_: src.data.good_bad_reviews_toy.GBReviewsToy # source class
+data_dir: "${paths.data_dir}"
+out_classes: 2
+batch_size: 2
+num_workers: 0
+vocab_size: 5000 # mock value, lower for speed

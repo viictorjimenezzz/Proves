@@ -1,0 +1,19 @@
+defaults:
+  - _self_
+  - data: good_bad_reviews_toy # good_bad_reviews_toy with LSTM, AGnews only coded to work with BERT
+  - model: TextClassification
+  - model/nlp: LSTM # LSTM and BERT available
+  - paths: default
+  - trainer: default
+  - callbacks: none # default
+  - loggers: none
+  - hydra: default
+  - extras: default
+
+seed: 42
+
+train: true
+test: true
+predict: true
+
+task_name: "train"

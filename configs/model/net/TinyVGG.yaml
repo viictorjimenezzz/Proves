@@ -1,0 +1,5 @@
+_target_: src.models.nets.TinyVGG.TinyVGG
+out_features: ${model.out_classes} # Same as model
+input_channels: 3
+hidden_units: 10
+WH_convout: [53, 53] # size of the feature block output image

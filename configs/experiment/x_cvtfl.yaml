@@ -1,0 +1,33 @@
+# Run this experiment in the command line with:
+# python src/train.py experiment=x_cvtfl
+
+defaults:
+  - override /data: pizza_steak_sushi
+  - override /model: FoodVisionMini
+  - override /model/net: Resnet50
+  - override /callbacks: default
+  - override /trainer: default
+
+# all parameters below will be merged with parameters from default configurations set above
+# this allows you to OVERWRITE ONLY SPECIFIED PARAMETERS
+
+seed: 42
+
+trainer:
+  min_epochs: 5
+  max_epochs: 5
+  gradient_clip_val: 0.5
+
+model:
+  optimizer:
+    lr: 0.001
+  compile: false
+
+tags: ["FoodVisionMini", "transfer_learning"]
+
+loggers:
+  wandb:
+    tags: ${tags}
+    group: "FoodVisionMini"
+  aim:
+    experiment: "Resnet50"

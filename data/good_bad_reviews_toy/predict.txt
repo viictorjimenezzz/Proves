@@ -1,0 +1,4 @@
+The product was awesome.	1
+This movie was not what I was expecting, I am deceived.	0
+The book was breathtaking.	1
+The movie was fine.	 1

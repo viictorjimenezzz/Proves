@@ -1,0 +1,8 @@
+_target_: src.models.nlp.LSTM.LSTMClassifier
+out_classes: ${data.out_classes}
+
+vocab_size: ${data.vocab_size}
+embedding_dim: 300 # mock
+hidden_size: 128
+num_layers: 2
+dropout: 0.5

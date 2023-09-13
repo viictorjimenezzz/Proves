@@ -1,0 +1,2 @@
+_target_: src.models.nlp.BERT.BertClassifier
+out_classes: ${data.out_classes} # out classes for the model depend on data being used

@@ -1,0 +1,7 @@
+_target_: src.data.AGnews.AG_News
+data_dir: "${paths.data_dir}"
+out_classes: 4
+batch_size: 5
+num_workers: 0
+
+vocab_size: 5000 # limit of words

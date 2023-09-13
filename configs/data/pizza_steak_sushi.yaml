@@ -1,0 +1,5 @@
+_target_: src.data.pizza_steak_sushi.pizza_steak_sushi # source class
+data_dir: "${paths.data_dir}"
+out_classes: 3  # Here bc it's an attribute of the data
+batch_size: 1
+num_workers: 0

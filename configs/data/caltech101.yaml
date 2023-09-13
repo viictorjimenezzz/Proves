@@ -1,0 +1,5 @@
+_target_: src.data.caltech101.caltech101 # source class
+data_dir: "${paths.data_dir}"
+out_classes: 101 # Here bc it's an attribute of the data
+batch_size: 32
+num_workers: 0

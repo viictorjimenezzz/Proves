@@ -1,0 +1,22 @@
+defaults:
+  - _self_
+  - data: pizza_steak_sushi # pizza_steak_sushi & caltech101 available
+  - model: FoodVisionMini # FoodVisionMini
+  - model/net: Resnet50 # Resnet50 & TinyVGG available
+  - paths: default
+  - trainer: default
+  - callbacks: none # default
+  - loggers: none # wandb
+  - hydra: default
+  - extras: default
+
+  # To override, we place it at last:
+  #- experiment: x_cvtfl #null # when I want to set up an experiment
+
+seed: 42
+
+train: true
+test: true
+predict: false
+
+task_name: "train"

@@ -1,0 +1,2 @@
+_target_: src.models.nets.Resnet50.Resnet50
+out_features: ${model.out_classes} # Same as model

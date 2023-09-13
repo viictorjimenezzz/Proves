@@ -1,0 +1,10 @@
+# Too big data folders:
+data/AGnews/
+data/caltech101/
+
+# Logs folders
+lightning_logs/
+logs/
+multirun/
+outputs/
+src/outputs/
